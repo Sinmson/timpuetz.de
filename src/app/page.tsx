@@ -1,5 +1,3 @@
-"server component"
-
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
@@ -23,7 +21,7 @@ type SkillPage = { "left": Skill[], "right": Skill[] };
 
 const SKILLS: SkillPage = {
   "left": [{ name: "HTML/CSS", rating: 5 }, { name: "Angular", rating: 4.5 }, { name: "React", rating: 3.5 }, { name: "REST", rating: 5 }, { name: "Git", rating: 3.5 }, { name: "Docker", rating: 3.5 }, { name: "Kubernetes", rating: 3.5 }],
-  "right": [{ name: "Java- & TypeScript", rating: 4.5 }, { name: "Kafka", rating: 3.5 }, { name: "CI/CD", rating: 3.5 }, { name: "Java", rating: 4 }, { name: "Spring-Boot", rating: 4 }, { name: "SQL", rating: 4 }, { name: "C#", rating: 3.5 }],
+  "right": [{ name: "Java- & TypeScript", rating: 4.5 }, { name: "Kafka", rating: 3.5 }, { name: "CI/CD", rating: 3.5 }, { name: "Java", rating: 4.5 }, { name: "Spring-Boot", rating: 4 }, { name: "SQL", rating: 4 }, { name: "C#", rating: 3.5 }],
 };
 
 
